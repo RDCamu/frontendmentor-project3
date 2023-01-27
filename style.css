@@ -23,8 +23,10 @@ html {
 }
 
 body {
-    overflow-x: hidden;
+    padding: 16px;
 }
+
+/* header */
 
 header {
     display: flex;
@@ -51,40 +53,33 @@ header {
     align-items: center;
 }
 
-
-body {
-    padding: 16px;
-}
-
-.menuContainer {
-    display: flex;
+.primary-navigation {
+    flex-direction: column;
+    gap: 3rem;
     position:absolute;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     top: 0px;
     left: 100%;
     transition: left 400ms;
-    flex-flow: row-reverse;
-
+    padding: 2rem;
+    background-color: var(--dark-grayish-blue);
 }
 
-.close {
-    align-self: flex-end;
+
+
+.flex {
+    display: flex;
 }
+
 
 .inposition {
-    left: 0%;
+    left: 20%;
 }
 
 
 
-.navlinks {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    background-color: azure;
-    height: 100%;
-}
+/* main */
 
 #displayimage {
     min-height: 300px;
@@ -95,7 +90,7 @@ body {
 h1 {
     font-size: 40px;
     font-weight: 800;
-    line-height: 1.5ch;
+    line-height: 1.3em;
     padding-top: 8px;
     padding-bottom: 8px;
     color: var(--very-dark-blue);
@@ -166,15 +161,11 @@ a {
 }
 
 
-
 .articleContent {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
-
-
 
 
 .articlegroup2 {
@@ -202,7 +193,6 @@ a {
     gap: 16px;
     height: 10rem;
 }
-
 
 
 .articleContainer img {

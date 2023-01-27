@@ -1,5 +1,5 @@
 const menubtn = document.querySelector('.openbtn')
-const menu = document.querySelector('.menuContainer')
+const menu = document.querySelector('.primary-navigation')
 const closebtn = document.querySelector('.close')
 
 
