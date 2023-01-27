@@ -1,0 +1,39 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.articlegroup2 {
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    gap: 16px;
+    padding: 16px;
+}
+
+.articleContainer {
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 8px;
+    max-height: 12rem;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.articleContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.numb {
+    font-size: 32px;
+}
